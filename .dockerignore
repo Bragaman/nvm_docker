@@ -1,0 +1,6 @@
+videos/
+json/
+.git
+Makefile
+LICENSE
+nginx.conf
