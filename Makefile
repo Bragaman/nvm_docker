@@ -1,4 +1,4 @@
-export IMAGE = nvm
+export IMAGE ?= nvm
 
 export CWD = $(shell pwd)
 export NGINX_VERSION ?= 1.18.0
@@ -21,3 +21,4 @@ run:
 	-v ${VIDEO_DIR}:/opt/static/videos/ \
 	-p 3030:80 \
 	${IMAGE}:latest
+	
