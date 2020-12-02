@@ -3,10 +3,10 @@
         {
             "clips": [
                 {
-                    "path": "/opt/static/videos/file.mp4",
-                    "type": "source",
-                    "tracks": "v1-a1"
-                }
+			"path": "/opt/static/videos/file.mp4",
+			"type": "source",
+			"tracks": "v1"
+		}
             ]
         }
     ]
