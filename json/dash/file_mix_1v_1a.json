@@ -1,0 +1,23 @@
+{
+    "sequences": [
+        {
+            "clips": [
+	    	{
+		    "sources": [
+			{
+				"path": "/opt/static/videos/file.mp4",
+				"type": "source",
+				"tracks": "v1"
+			},
+			{
+				"path": "/opt/static/videos/file.mp4",
+				"type": "source",
+				"tracks": "a1"
+			}
+		    ],
+		    "type": "mixFilter"
+		}
+            ]
+        }
+    ]
+}
