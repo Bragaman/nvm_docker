@@ -5,8 +5,8 @@ export NGINX_VERSION ?= 1.19.3
 export NVM_VERSION ?= $(shell curl -s https://api.github.com/repos/kaltura/nginx-vod-module/tags | jq -r '.[0] | .name')
 
 export VIDEO_DIR ?= ${CWD}/videos
-export CONF_PATH ?= ${CWD}/nginx.conf
-export JSON_PATH ?= ${CWD}/json
+export CONF_PATH ?= ${CWD}/examples/nginx.conf
+export JSON_PATH ?= ${CWD}/examples/json
 
 .PHONY: build_latest
 
