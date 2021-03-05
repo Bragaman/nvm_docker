@@ -1,7 +1,7 @@
 export IMAGE ?= nvm
 
 export CWD = $(shell pwd)
-export NGINX_VERSION ?= 1.18.0
+export NGINX_VERSION ?= 1.19.3
 export NVM_VERSION ?= $(shell curl -s https://api.github.com/repos/kaltura/nginx-vod-module/tags | jq -r '.[0] | .name')
 
 export VIDEO_DIR ?= ${CWD}/videos
