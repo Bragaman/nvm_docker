@@ -1,0 +1,16 @@
+{
+    "sequences": [
+        {
+            "clips": [
+                {
+                    "path": "/opt/static/videos/encript_file.mp4",
+                    "type": "source",
+                    "tracks": "v1-a1",
+                    "encryptionScheme":"cenc",
+                    "encryptionKey": "dqbGXF6nYgRr10mi5jLMuw==",
+                    "encryptionIv": "p+YcNz4hkDPCEJH6YHvzuA==="
+                }
+            ]
+        }
+    ]
+}
